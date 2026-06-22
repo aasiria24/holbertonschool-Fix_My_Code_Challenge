@@ -18,7 +18,7 @@ ARGV.each do |arg|
         if result[i] < i_arg
             i += 1
         else
-            result.insert(i, i_arg)  # ← i, not i - 1
+            result.insert(i, i_arg)
             is_inserted = true
             break
         end
